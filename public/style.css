@@ -1,0 +1,102 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sarabun', 'Open Sans', sans-serif, Incosolata;
+}
+
+/*Classes auxiliares: Classes que são utilizadas durante todo o projeto*/
+
+	.container{
+		max-width: 1288px;
+		margin:  0 auto;
+		padding: 0 2%;
+	}
+
+	.clear{clear: both;}
+
+	.w50{
+		width: 50%;
+		float: left;
+	}
+
+	.w33{
+		width: 33.33%;
+		float: left;
+
+	}
+
+	.center{
+		text-align: center;
+	}
+
+
+
+/*Classes do site*/
+
+
+
+	/*Header*/
+
+	header{
+		padding: 8px 0;
+	}
+
+
+	.logo{
+		float: left;
+	}
+
+	.logo img{
+		width: 150px;
+		height: 90px;
+		position: absolute;
+	}
+
+	div.logo{
+		margin-bottom: 90px;
+	}
+
+
+	nav.menu-desktop{
+		float: left;
+	}
+
+
+	nav.menu-desktop ul{
+		position: relative;
+		top: 8px;
+	}
+
+
+	nav.menu-desktop li{
+		padding: 0 10px;
+		padding-top: 45px;
+		padding-bottom: 15px;
+		font-weight: lighter;
+		display: inline-block;
+	}
+
+	nav.menu-desktop li.selecionado a{
+		font-weight: normal;
+	}
+
+	nav.menu-desktop a{
+		color: #608787;
+		text-decoration: none;
+	}
+
+	nav.menu-desktop a:hover{
+		background: #2FFFEA;
+		color: #120a89;
+		border-radius: 5% 35% 5% 25% ;
+	}
+
+
+
+
+
+
+
+
+
